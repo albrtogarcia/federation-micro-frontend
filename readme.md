@@ -6,6 +6,7 @@ This project is a proof of concept to show how to create a module federation mic
 
 - [React Micro Frontends with Vite](https://dev.to/getjv/react-micro-frontends-with-vite-5442)
 - [React Micro Frontends with Module Federation](https://www.nearform.com/blog/react-micro-frontends-module-federation/)
+- [Git submodules](https://www.atlassian.com/git/tutorials/git-submodule)
 
 ## Main dependencies
 
@@ -46,13 +47,13 @@ This folder contains the `app-container` and all the services and only runs a pa
 ```
 This folder (name it as you want)
   │
-  └─app-container
+  └─ app-container
   │
-  └─service-library
+  └─ library
   │
-  └─service-auth
+  └─ service-auth
   │
-  └─service-dashboard
+  └─ service-dashboard
 ```
 
 This structure is just an example, you can organize your micro frontends as you want.
