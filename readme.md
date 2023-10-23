@@ -14,13 +14,25 @@ This project is a proof of concept to show how to create a module federation mic
 - [Federation](https://github.com/originjs/vite-plugin-federation)
 - [Concurrently](https://github.com/open-cli-tools/concurrently)
 
-## Getting Started
+## Getting started
 
-Create git submodules for each service and the app-container:
+Clone this repo with submodules for each service and the app-container:
 
-- git submodule add
+```bash
+git clone --recurse-submodules https://github.com/albrtogarcia/federation-micro-frontend.git
+```
 
-Edit the `start-all` command in `package.json` with the correct paths for each service and the app-container. In this case we'll use the following:
+In this way, you'll have the app-container and the services projects in the same folder and can edit all projects in the same instance of your editor but you can commit changes per project. Just checkout Source Control view in VSCode and you'll see the changes in each project separately.
+
+Or clone it without submodules, delete them and build your own services and app-container.
+
+Install dependencies on each project:
+
+```bash
+npm install
+```
+
+If needed, edit the `start-all` command in `package.json` with the correct paths for each service and the app-container. In this case we'll use the following:
 
 - `app-container`: Application host that contains components and pages imported from services apps.
 - `service-*:` Applications that can import remote components from other services and can expose its own components to the other services an `the app-container`.

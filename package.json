@@ -6,7 +6,7 @@
   "url": "https://github.com/albrtogarcia/federation-micro-frontend",
   "license": "MIT",
   "scripts": {
-    "start-all": "concurrently \"npm run dev --prefix app-container\" \"npm run preview --prefix service-library\" \"npm run preview --prefix service-auth\" \"npm run preview --prefix service-dashboard\""
+    "start-all": "concurrently \"npm run dev --prefix app-container\" \"npm run preview --prefix library\" \"npm run preview --prefix service-auth\" \"npm run preview --prefix service-dashboard\""
   },
   "devDependencies": {
     "concurrently": "^8.2.1"
