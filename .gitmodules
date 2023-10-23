@@ -1,0 +1,12 @@
+[submodule "app-container"]
+	path = app-container
+	url = https://github.com/albrtogarcia/app-container
+[submodule "library"]
+	path = library
+	url = https://github.com/albrtogarcia/react-ui-library
+[submodule "service-auth"]
+	path = service-auth
+	url = https://github.com/albrtogarcia/service-auth
+[submodule "service-dashboard"]
+	path = service-dashboard
+	url = https://github.com/albrtogarcia/service-dashboard
